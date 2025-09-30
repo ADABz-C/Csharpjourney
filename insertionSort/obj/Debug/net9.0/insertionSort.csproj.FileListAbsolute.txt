@@ -1,0 +1,14 @@
+C:\Users\chide\source\repos\insertionSort\bin\Debug\net9.0\insertionSort.exe
+C:\Users\chide\source\repos\insertionSort\bin\Debug\net9.0\insertionSort.deps.json
+C:\Users\chide\source\repos\insertionSort\bin\Debug\net9.0\insertionSort.runtimeconfig.json
+C:\Users\chide\source\repos\insertionSort\bin\Debug\net9.0\insertionSort.dll
+C:\Users\chide\source\repos\insertionSort\bin\Debug\net9.0\insertionSort.pdb
+C:\Users\chide\source\repos\insertionSort\obj\Debug\net9.0\insertionSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chide\source\repos\insertionSort\obj\Debug\net9.0\insertionSort.AssemblyInfoInputs.cache
+C:\Users\chide\source\repos\insertionSort\obj\Debug\net9.0\insertionSort.AssemblyInfo.cs
+C:\Users\chide\source\repos\insertionSort\obj\Debug\net9.0\insertionSort.csproj.CoreCompileInputs.cache
+C:\Users\chide\source\repos\insertionSort\obj\Debug\net9.0\insertionSort.dll
+C:\Users\chide\source\repos\insertionSort\obj\Debug\net9.0\refint\insertionSort.dll
+C:\Users\chide\source\repos\insertionSort\obj\Debug\net9.0\insertionSort.pdb
+C:\Users\chide\source\repos\insertionSort\obj\Debug\net9.0\insertionSort.genruntimeconfig.cache
+C:\Users\chide\source\repos\insertionSort\obj\Debug\net9.0\ref\insertionSort.dll
