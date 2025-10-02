@@ -1,0 +1,14 @@
+C:\Users\chide\source\repos\selectionSort\bin\Debug\net9.0\selectionSort.exe
+C:\Users\chide\source\repos\selectionSort\bin\Debug\net9.0\selectionSort.deps.json
+C:\Users\chide\source\repos\selectionSort\bin\Debug\net9.0\selectionSort.runtimeconfig.json
+C:\Users\chide\source\repos\selectionSort\bin\Debug\net9.0\selectionSort.dll
+C:\Users\chide\source\repos\selectionSort\bin\Debug\net9.0\selectionSort.pdb
+C:\Users\chide\source\repos\selectionSort\obj\Debug\net9.0\selectionSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chide\source\repos\selectionSort\obj\Debug\net9.0\selectionSort.AssemblyInfoInputs.cache
+C:\Users\chide\source\repos\selectionSort\obj\Debug\net9.0\selectionSort.AssemblyInfo.cs
+C:\Users\chide\source\repos\selectionSort\obj\Debug\net9.0\selectionSort.csproj.CoreCompileInputs.cache
+C:\Users\chide\source\repos\selectionSort\obj\Debug\net9.0\selectionSort.dll
+C:\Users\chide\source\repos\selectionSort\obj\Debug\net9.0\refint\selectionSort.dll
+C:\Users\chide\source\repos\selectionSort\obj\Debug\net9.0\selectionSort.pdb
+C:\Users\chide\source\repos\selectionSort\obj\Debug\net9.0\selectionSort.genruntimeconfig.cache
+C:\Users\chide\source\repos\selectionSort\obj\Debug\net9.0\ref\selectionSort.dll
