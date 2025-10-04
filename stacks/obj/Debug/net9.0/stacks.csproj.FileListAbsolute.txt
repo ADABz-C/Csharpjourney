@@ -1,0 +1,15 @@
+C:\Users\chide\source\repos\Csharpjourney\stacks\bin\Debug\net9.0\stacks.exe
+C:\Users\chide\source\repos\Csharpjourney\stacks\bin\Debug\net9.0\stacks.deps.json
+C:\Users\chide\source\repos\Csharpjourney\stacks\bin\Debug\net9.0\stacks.runtimeconfig.json
+C:\Users\chide\source\repos\Csharpjourney\stacks\bin\Debug\net9.0\stacks.dll
+C:\Users\chide\source\repos\Csharpjourney\stacks\bin\Debug\net9.0\stacks.pdb
+C:\Users\chide\source\repos\Csharpjourney\stacks\obj\Debug\net9.0\stacks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chide\source\repos\Csharpjourney\stacks\obj\Debug\net9.0\stacks.AssemblyInfoInputs.cache
+C:\Users\chide\source\repos\Csharpjourney\stacks\obj\Debug\net9.0\stacks.AssemblyInfo.cs
+C:\Users\chide\source\repos\Csharpjourney\stacks\obj\Debug\net9.0\stacks.csproj.CoreCompileInputs.cache
+C:\Users\chide\source\repos\Csharpjourney\stacks\obj\Debug\net9.0\stacks.sourcelink.json
+C:\Users\chide\source\repos\Csharpjourney\stacks\obj\Debug\net9.0\stacks.dll
+C:\Users\chide\source\repos\Csharpjourney\stacks\obj\Debug\net9.0\refint\stacks.dll
+C:\Users\chide\source\repos\Csharpjourney\stacks\obj\Debug\net9.0\stacks.pdb
+C:\Users\chide\source\repos\Csharpjourney\stacks\obj\Debug\net9.0\stacks.genruntimeconfig.cache
+C:\Users\chide\source\repos\Csharpjourney\stacks\obj\Debug\net9.0\ref\stacks.dll
