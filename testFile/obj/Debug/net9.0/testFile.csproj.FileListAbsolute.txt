@@ -1,0 +1,15 @@
+C:\Users\chide\source\repos\Csharpjourney\testFile\obj\Debug\net9.0\testFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chide\source\repos\Csharpjourney\testFile\obj\Debug\net9.0\testFile.AssemblyInfoInputs.cache
+C:\Users\chide\source\repos\Csharpjourney\testFile\obj\Debug\net9.0\testFile.AssemblyInfo.cs
+C:\Users\chide\source\repos\Csharpjourney\testFile\obj\Debug\net9.0\testFile.csproj.CoreCompileInputs.cache
+C:\Users\chide\source\repos\Csharpjourney\testFile\obj\Debug\net9.0\testFile.sourcelink.json
+C:\Users\chide\source\repos\Csharpjourney\testFile\bin\Debug\net9.0\testFile.exe
+C:\Users\chide\source\repos\Csharpjourney\testFile\bin\Debug\net9.0\testFile.deps.json
+C:\Users\chide\source\repos\Csharpjourney\testFile\bin\Debug\net9.0\testFile.runtimeconfig.json
+C:\Users\chide\source\repos\Csharpjourney\testFile\bin\Debug\net9.0\testFile.dll
+C:\Users\chide\source\repos\Csharpjourney\testFile\bin\Debug\net9.0\testFile.pdb
+C:\Users\chide\source\repos\Csharpjourney\testFile\obj\Debug\net9.0\testFile.dll
+C:\Users\chide\source\repos\Csharpjourney\testFile\obj\Debug\net9.0\refint\testFile.dll
+C:\Users\chide\source\repos\Csharpjourney\testFile\obj\Debug\net9.0\testFile.pdb
+C:\Users\chide\source\repos\Csharpjourney\testFile\obj\Debug\net9.0\testFile.genruntimeconfig.cache
+C:\Users\chide\source\repos\Csharpjourney\testFile\obj\Debug\net9.0\ref\testFile.dll
