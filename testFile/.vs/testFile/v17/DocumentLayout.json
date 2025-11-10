@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{36AAFCEA-95C1-4D8D-A3D4-F719BEA5AE9E}|testFile.csproj|c:\\users\\chide\\source\\repos\\csharpjourney\\testfile\\files\\example.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{36AAFCEA-95C1-4D8D-A3D4-F719BEA5AE9E}|testFile.csproj|solutionrelative:files\\example.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36AAFCEA-95C1-4D8D-A3D4-F719BEA5AE9E}|testFile.csproj|c:\\users\\chide\\source\\repos\\csharpjourney\\testfile\\newfilesfolder\\example2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{36AAFCEA-95C1-4D8D-A3D4-F719BEA5AE9E}|testFile.csproj|solutionrelative:newfilesfolder\\example2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "example2.txt",
+              "DocumentMoniker": "C:\\Users\\chide\\source\\repos\\Csharpjourney\\testFile\\newFilesFolder\\example2.txt",
+              "RelativeDocumentMoniker": "newFilesFolder\\example2.txt",
+              "ToolTip": "C:\\Users\\chide\\source\\repos\\Csharpjourney\\testFile\\newFilesFolder\\example2.txt",
+              "RelativeToolTip": "newFilesFolder\\example2.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-09T01:30:10.593Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -39,9 +56,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\chide\\source\\repos\\Csharpjourney\\testFile\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\chide\\source\\repos\\Csharpjourney\\testFile\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwCkAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\chide\\source\\repos\\Csharpjourney\\testFile\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T04:37:16.72Z",
               "EditorCaption": ""

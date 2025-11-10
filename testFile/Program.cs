@@ -30,7 +30,7 @@ internal class Program
         //File Directory and operations
         string directoryPath = "C:\\Users\\chide\\source\\repos\\Csharpjourney\\testFile\\newFilesFolder\\";
         string filePath = Path.Combine(directoryPath, "example2.txt");
-        
+
 
 
         if (!Directory.Exists(filePath))
@@ -52,7 +52,44 @@ internal class Program
         string currentDirectory = AppDomain.CurrentDomain.BaseDirectory; // Checks for program's location
         string newFolderPath = Path.Combine(currentDirectory, "workingFolder"); //adds workingFolder to programs location
 
+        if (!Directory.Exists(newFolderPath))
+        {
+            Directory.CreateDirectory(newFolderPath);
+        }
+        //Directory.CreateDirectory(newFolderPath) creates directory if it doesn't exist and does nothing if it doesn't exist
 
+        string newFilePath = Path.Combine(newFolderPath, "example3.txt");
+
+        File.WriteAllText(newFilePath, "File created in the directory you also created");
+
+
+
+        if (!File.Exists(newFilePath))
+        {
+            File.WriteAllText(newFilePath, "This condition printed 'Hello World'");
+            Console.WriteLine("Your condition came in clutch");
+        }
+
+        //Reading new file
+
+        //I'm going to start reading from my created file
+        if (File.Exists(newFilePath))
+        {
+            Console.WriteLine("Beginning of reading new files");
+            string newContent = File.ReadAllText(newFilePath);
+
+            Console.WriteLine(newContent);
+
+        }
+        else
+        {
+            Console.WriteLine("File doesn't exist");
+
+
+        }
+
+        string newdir = Path.GetDirectoryName(filePath);
+        Console.WriteLine(newdir);
 
     }
 }
