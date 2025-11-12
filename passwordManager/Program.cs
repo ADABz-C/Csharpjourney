@@ -9,7 +9,7 @@ class Program
         try
         {
             File.AppendAllText(pwdHolderFile, addedContent);
-            Console.WriteLine("Password added successfully");
+            Console.WriteLine("\nPassword added successfully");
         }
         catch (FileNotFoundException)
         {
@@ -36,7 +36,7 @@ class Program
 
         if (!File.Exists(pwdHolderFile))
         {
-            File.WriteAllLines(pwdHolderFile, "Password file created forcefully");
+            File.WriteAllText(pwdHolderFile, "Password file created forcefully");
         }
         //File has been created
         string masterPwd = "p"; // Main password
@@ -62,27 +62,60 @@ class Program
             }
             else if (mode.ToLower() == "add")
             {
-                Console.Write("Enter Organization/Account name >> ");
-                string org = Console.ReadLine();
+                while (true)
+                {
+                    Console.Write("Enter Organization/Account name >> ");
+                    string org = Console.ReadLine();
 
-                Console.Write("Enter Username >> ");
-                string userName = Console.ReadLine();
+                    Console.Write("Enter Username >> ");
+                    string userName = Console.ReadLine();
 
-                Console.Write("Enter e-mail >> ");
-                string email = Console.ReadLine();
+                    Console.Write("Enter e-mail >> ");
+                    string email = Console.ReadLine();
 
-                Console.Write("Enter Password >> ");
-                string password = Console.ReadLine();
+                    Console.Write("Enter Password >> ");
+                    string password = Console.ReadLine();
 
 
+                
+                    Console.Write($"You are about to save password as: \n" +
+                        $"Organization/Account name: {org}\n" +
+                        $"Username: {userName}\n" +
+                        $"E-mail: {email}\n" +
+                        $"Password: {password}\n" +
+                        $"Is this correct? (y/n) | type 'q' to quit >> ");
+                    char choice = Console.ReadKey().KeyChar;
+                    Console.WriteLine();
 
-                Console.Write($"You are about to save password as: \n" +
-                    $"Organization/Account name: {org}\n" +
-                    $"Username: {userName}\n" +
-                    $"E-mail: {email}\n" +
-                    $"Is this correct? (y/n) >> ");
-                char choice = Console.ReadKey().KeyChar;
+                    if (char.ToLower(choice) == 'y')
+                    {
+                        //PwdEntry format
+                        string pwdEntry = $"Organization/Account name : {org}\n" +
+                        $"Username: {userName}\n" +
+                        $"E-mail: {email}\n" +
+                        $"Password: {password}\n";
 
+                        //Append file with password
+                        //I almost forgot I previosly created a function
+                        addpwd(pwdHolderFile, pwdEntry);
+
+                    }
+                    else if (char.ToLower(choice) == 'n')
+                    {
+                        Console.WriteLine("\nRe-Enter correct password");
+                        continue;
+                    }
+                    else if (char.ToLower(choice) == 'q')
+                    {
+                        Console.WriteLine("\nThanks for using this password manager");
+                        break;
+                    }
+                    else { Console.WriteLine("Invalid character"); }
+
+                    break;
+
+                    
+                }
             }
             else { Console.WriteLine("Invalid mode."); }
         }
