@@ -36,7 +36,7 @@ class Program
 
         if (!File.Exists(pwdHolderFile))
         {
-            File.WriteAllText(pwdHolderFile, "Password file created forcefully");
+            File.WriteAllText(pwdHolderFile, "Password file created forcefully \n");
         }
         //File has been created
         string masterPwd = "p"; // Main password
@@ -48,10 +48,13 @@ class Program
 
         //Console.WriteLine("hey " + pwd);
 
-        Console.Write("Would you like to view your existing passwords or add a new one (view, add) | type 'q' to quit >>  ");
-        string mode = Console.ReadLine();
+        
+        
         while (true)
         {
+            Console.Write("Would you like to view your existing passwords or add a new one (view, add) | type 'q' to quit >>  ");
+            string mode = Console.ReadLine();
+
             if (mode.ToLower() == "q")
             {
                 break;
@@ -90,10 +93,12 @@ class Program
                     if (char.ToLower(choice) == 'y')
                     {
                         //PwdEntry format
-                        string pwdEntry = $"Organization/Account name : {org}\n" +
+                        string pwdEntry = $"----------------------------------------------------------------------------\n" +
+                            $"Organization/Account name : {org}\n" +
                         $"Username: {userName}\n" +
                         $"E-mail: {email}\n" +
-                        $"Password: {password}\n";
+                        $"Password: {password}\n" +
+                        "----------------------------------------------------------------------------";
 
                         //Append file with password
                         //I almost forgot I previosly created a function
@@ -111,8 +116,6 @@ class Program
                         break;
                     }
                     else { Console.WriteLine("Invalid character"); }
-
-                    break;
 
                     
                 }
