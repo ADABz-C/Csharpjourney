@@ -1,32 +1,21 @@
-Password file created forcefullyOrganization/Account name : Check
-Username: Chidi
-E-mail: caad
-Password: 121
-Organization/Account name : Chdi
-Username: qdw
-E-mail: qdwdq
-Password: qdwdq
-Organization/Account name : qcwqcwc
-Username: wqcqwc
-E-mail: cwqcq
-Password: cqwc
-Organization/Account name : ada
-Username: adads
-E-mail: adsda
-Password: asdasd
-Organization/Account name : qdwdqdq
-Username: dqwdqwd
-E-mail: dqwedqwd
-Password: dqwdwqd
-Organization/Account name : 3131
-Username: 3131
-E-mail: 1313
-Password: 1313
-Organization/Account name : 13113
-Username: 311313
-E-mail: 13131
-Password: 313131
-Organization/Account name : qfwfq
-Username: fw
-E-mail: fdqwfwq
-Password: ffwf
+Password file created forcefullyOrganization/Account
+Organization/Account name : a
+Username: d
+E-mail: adad
+Password: da
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Organization/Account name : dsdd
+Username: sdsd
+E-mail: sdsd
+Password: dsd
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Organization/Account name : md;vlsmd
+Username: dvsdvsd
+E-mail: dsvdvs
+Password: vdsvs
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Organization/Account name : adda
+Username: wdqwd
+E-mail: 1233
+Password: qdedq
+----------------------------------------------------------------------------

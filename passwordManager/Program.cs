@@ -20,6 +20,18 @@ class Program
             Console.WriteLine($"Error occured: {ex.Message}");
         }
     }
+    public static void viewpwd(string pwdHolderFile)
+    {
+        if (File.Exists(pwdHolderFile))
+        {
+            string content = File.ReadAllText(pwdHolderFile);
+            Console.WriteLine(content);
+        }
+        else
+        {
+            Console.WriteLine("File doesn't exist");
+        }
+    }
     public static void Main(string[] args)
     {
         //I'm going to start by creating the file and its directory in the location where the program is being run
@@ -36,7 +48,7 @@ class Program
 
         if (!File.Exists(pwdHolderFile))
         {
-            File.WriteAllText(pwdHolderFile, "Password file created forcefully \n");
+            File.WriteAllText(pwdHolderFile, " \n");
         }
         //File has been created
         string masterPwd = "p"; // Main password
@@ -61,7 +73,7 @@ class Program
             }
             if (mode.ToLower() == "view")
             {
-
+                viewpwd(pwdHolderFile);
             }
             else if (mode.ToLower() == "add")
             {
@@ -87,10 +99,10 @@ class Program
                         $"E-mail: {email}\n" +
                         $"Password: {password}\n" +
                         $"Is this correct? (y/n) | type 'q' to quit >> ");
-                    char choice = Console.ReadKey().KeyChar;
+                    string choice = Console.ReadLine();
                     Console.WriteLine();
 
-                    if (char.ToLower(choice) == 'y')
+                    if (choice.Trim().ToLower() == "y")
                     {
                         //PwdEntry format
                         string pwdEntry = $"----------------------------------------------------------------------------\n" +
@@ -105,12 +117,12 @@ class Program
                         addpwd(pwdHolderFile, pwdEntry);
 
                     }
-                    else if (char.ToLower(choice) == 'n')
+                    else if (choice.Trim().ToLower() == "n")
                     {
                         Console.WriteLine("\nRe-Enter correct password");
                         continue;
                     }
-                    else if (char.ToLower(choice) == 'q')
+                    else if (choice.Trim().ToLower() == "q")
                     {
                         Console.WriteLine("\nThanks for using this password manager");
                         break;
