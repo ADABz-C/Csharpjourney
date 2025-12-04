@@ -6,6 +6,7 @@ class Program
     //the variable "addedContent" is the collection of every parameter that comes after filedir
     public static void addpwd(string pwdHolderFile, string addedContent)
     {
+        // add passwords from addedContent into pwdHolderFile 
         try
         {
             File.AppendAllText(pwdHolderFile, addedContent);
@@ -20,6 +21,7 @@ class Program
             Console.WriteLine($"Error occured: {ex.Message}");
         }
     }
+    // View passwords in pwdHolderFile
     public static void viewpwd(string pwdHolderFile)
     {
         if (File.Exists(pwdHolderFile))
@@ -31,6 +33,23 @@ class Program
         {
             Console.WriteLine("File doesn't exist");
         }
+    }
+    //search passwords in the file by storing 
+    public static void searchpwd(string pwdHolderFile, string searchedTerm)
+    {
+        try
+        {
+            File.ReadLines(pwdHolderFile)
+                .Any(line => line.Contains(searchedTerm));
+
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error occured: {ex.Message}");
+        }
+
+
     }
     public static void Main(string[] args)
     {
@@ -64,19 +83,26 @@ class Program
         
         while (true)
         {
-            Console.Write("Would you like to view your existing passwords or add a new one (view, add) | type 'q' to quit >>  ");
+            Console.Write("Would you like to view your existing passwords or add a new one (view, add, search) | type 'q' to quit >>  ");
             string mode = Console.ReadLine();
 
             if (mode.ToLower() == "q")
             {
-                break;
+                break; //ends program
             }
-            if (mode.ToLower() == "view")
+            else if (mode.Trim().ToLower() == "search")
             {
-                viewpwd(pwdHolderFile);
+                // Search through file for term and bring out all information related to that term
+
             }
-            else if (mode.ToLower() == "add")
+            else if (mode.Trim().ToLower() == "view")
             {
+                viewpwd(pwdHolderFile); // prints passwords
+            }
+            else if (mode.Trim().ToLower() == "add")
+            {
+
+                //Updates pwd file
                 while (true)
                 {
                     Console.Write("Enter Organization/Account name >> ");
@@ -128,7 +154,6 @@ class Program
                         break;
                     }
                     else { Console.WriteLine("Invalid character"); }
-
                     
                 }
             }
